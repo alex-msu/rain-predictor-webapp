@@ -38,8 +38,6 @@ Estas fueron seleccionadas por su alta correlación con la variable objetivo `Ra
 
 La aplicación cuenta con una interfaz web simple y clara. El usuario puede ingresar las variables meteorológicas y obtener una predicción con probabilidad:
 
-📸 *Ejemplo de interfaz:*
-
 ![screenshot](screenshot.png)
 
 ---
@@ -68,9 +66,8 @@ La aplicación cuenta con una interfaz web simple y clara. El usuario puede ingr
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu_usuario/australia-lluvia-ml.git
-   cd australia-lluvia-ml
-````
+   git clone https://github.com/alex-msu/rain-predictor-webapp.git
+   cd rain-predictor-webapp
 
 2. Crea un entorno virtual (opcional pero recomendado):
 
@@ -95,7 +92,15 @@ La aplicación cuenta con una interfaz web simple y clara. El usuario puede ingr
 
    ```
    http://localhost:5000
-   ``````
+   ```
+
+> ⚠️ **Este repositorio utiliza [Git LFS](https://git-lfs.github.com/)** para almacenar el modelo entrenado (`modelo_rf.pkl`).
+> Si vas a clonar este repositorio, asegúrate de tener Git LFS instalado y ejecuta:
+>
+> ```bash
+> git lfs install
+> git lfs pull
+> ```
 
 ---
 
@@ -105,6 +110,6 @@ Este proyecto está bajo la licencia MIT.
 
 ---
 
-## 👤 Autor
+## 👤 Autores
 
-Proyecto individual desarrollado por \[Alexis Martínez] como parte de un curso universitario. Se utilizó aprendizaje automático, ingeniería de características y una API web ligera para la predicción meteorológica.
+Proyecto individual desarrollado por Alexis Martínez, Benjamín Briceño y Joaquín Parada como parte de un curso universitario. Se utilizó aprendizaje automático, ingeniería de características y una API web ligera para la predicción meteorológica.
