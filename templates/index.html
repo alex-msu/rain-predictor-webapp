@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predicción de Lluvia</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="form-container">
+        <h1>¿Lloverá mañana?</h1>
+        <form method="POST" aria-label="Formulario de predicción de lluvia">
+            <div class="input-group">
+                <label for="humidity3pm">Humedad a las 3pm (%):</label>
+                <input type="number" step="0.1" min="0" max="100" id="humidity3pm" name="humidity3pm" required>
+            </div>
+            
+            <div class="input-group">
+                <label for="rainfall">Precipitación (mm):</label>
+                <input type="number" step="0.1" min="0" id="rainfall" name="rainfall" required>
+            </div>
+            
+            <div class="input-group">
+                <label for="sunshine">Horas de sol:</label>
+                <input type="number" step="0.1" min="0" max="24" id="sunshine" name="sunshine" required>
+            </div>
+            
+            <div class="input-group">
+                <label for="windgustspeed">Velocidad ráfaga viento (km/h):</label>
+                <input type="number" step="0.1" min="0" id="windgustspeed" name="windgustspeed" required>
+            </div>
+            
+            <div class="input-group">
+                <label for="cloud3pm">Nubosidad a las 3pm (octavos):</label>
+                <input type="number" step="1" min="0" max="8" id="cloud3pm" name="cloud3pm" required>
+            </div>
+            
+            <button type="submit">🌦 ¡Obtener Predicción!</button>
+        </form>
+
+        {% if error %}
+        <div class="error" role="alert">
+            <h2>❌ Error:</h2>
+            <p>{{ error }}</p>
+        </div>
+        {% endif %}
+        
+        {% if prediction %}
+        <div class="result" role="status">
+            <h2>📊 Predicción:</h2>
+            <p><strong>{{ prediction }}</strong></p>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
