@@ -38,8 +38,6 @@ Estas fueron seleccionadas por su alta correlación con la variable objetivo `Ra
 
 La aplicación cuenta con una interfaz web simple y clara. El usuario puede ingresar las variables meteorológicas y obtener una predicción con probabilidad:
 
-📸 *Ejemplo de interfaz:*
-
 ![screenshot](screenshot.png)
 
 ---
@@ -96,6 +94,9 @@ La aplicación cuenta con una interfaz web simple y clara. El usuario puede ingr
    ```
    http://localhost:5000
    ``````
+---
+
+⚠️ Este repositorio utiliza Git LFS para almacenar el modelo entrenado (`modelo_rf.pkl`). Si vas a clonar este repositorio, asegúrate de tener [Git LFS](https://git-lfs.github.com/) instalado.
 
 ---
 
