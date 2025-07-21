@@ -6,9 +6,6 @@ venv/
 __pycache__/
 *.pyc
 
-# Archivos del modelo si pesan mucho
-*.pkl
-
 # Archivos locales o temporales
 .DS_Store
 *.log
