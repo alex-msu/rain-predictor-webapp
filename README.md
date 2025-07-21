@@ -95,7 +95,7 @@ La aplicación cuenta con una interfaz web simple y clara. El usuario puede ingr
 
    ```
    http://localhost:5000
-   ```
+   ``````
 
 ---
 
@@ -107,4 +107,4 @@ Este proyecto está bajo la licencia MIT.
 
 ## 👤 Autor
 
-Proyecto individual desarrollado por \[Tu Nombre Aquí] como parte de un curso universitario. Se utilizó aprendizaje automático, ingeniería de características y una API web ligera para la predicción meteorológica.
+Proyecto individual desarrollado por \[Alexis Martínez] como parte de un curso universitario. Se utilizó aprendizaje automático, ingeniería de características y una API web ligera para la predicción meteorológica.
