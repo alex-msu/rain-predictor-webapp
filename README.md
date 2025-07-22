@@ -48,7 +48,7 @@ La aplicación cuenta con una interfaz web simple y clara. El usuario puede ingr
 
 ├── app.py
 ├── models/
-│   └── modelo\_rf.pkl
+│   └── modelo_rf.pkl
 ├── templates/
 │   └── index.html
 ├── static/
@@ -65,42 +65,37 @@ La aplicación cuenta con una interfaz web simple y clara. El usuario puede ingr
 ## 🚀 ¿Cómo correr la app?
 
 1. Clona este repositorio:
-   ```bash
+   ```
    git clone https://github.com/alex-msu/rain-predictor-webapp.git
    cd rain-predictor-webapp
 
 2. Crea un entorno virtual (opcional pero recomendado):
 
-   ```bash
+   ```
    python -m venv venv
    venv\Scripts\activate  # En Windows
-   ```
 
 3. Instala las dependencias:
 
-   ```bash
-   pip install -r requirements.txt
    ```
+   pip install -r requirements.txt
 
 4. Ejecuta la app:
 
-   ```bash
-   python app.py
    ```
+   python app.py
 
 5. Abre tu navegador y visita:
 
    ```
    http://localhost:5000
-   ```
 
 > ⚠️ **Este repositorio utiliza [Git LFS](https://git-lfs.github.com/)** para almacenar el modelo entrenado (`modelo_rf.pkl`).
 > Si vas a clonar este repositorio, asegúrate de tener Git LFS instalado y ejecuta:
 >
-> ```bash
+> ```
 > git lfs install
 > git lfs pull
-> ```
 
 ---
 
