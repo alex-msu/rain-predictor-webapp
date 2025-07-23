@@ -26,11 +26,14 @@ Estas fueron seleccionadas por su alta correlación con la variable objetivo `Ra
 
 ## ⚙️ Tecnologías utilizadas
 
-- Python 3
-- Flask
-- scikit-learn
-- pandas
-- HTML + CSS
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-639.svg?style=for-the-badge&logo=css&logoColor=white)     
+
+
+[//]: # "- Python 3"
+[//]: # "- Flask"
+[//]: # "- scikit-learn"
+[//]: # "- pandas"
+[//]: # "- HTML + CSS"
 
 ---
 
